@@ -1,0 +1,35 @@
+.btnNormal{
+background: #ffffff;
+border: var(--primary-color);
+border-radius: 20px;
+height: 40px;
+font-size: 16px;
+padding: 4px 16px;
+color: var(--primary-color);
+border: 2px solid var(--primary-color);
+}
+.btnHover{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+height: 40px;
+padding: 4px 16px;
+color: white;
+font-size: 16px;
+
+}
+
+
+.btnNormal:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.btnHover:hover{
+    background: #ffffff;
+border: var(--primary-color);
+border-radius: 20px;
+color: var(--primary-color);
+border: 2px solid var(--primary-color);
+}
